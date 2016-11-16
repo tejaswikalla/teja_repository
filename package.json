@@ -2,10 +2,6 @@
   "name": "fx-app",
   "version": "1.0.0",
   "description": "",
-  "repository": {
-    "type": "git",
-    "url": "git@github.geo.apple.com:neutron-edu/fx-app.git"
-  },
   "main": "src/index.js",
   "scripts": {
     "build": "webpack --progress --bail -p",
@@ -13,7 +9,7 @@
     "start": "webpack-dev-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Theo",
+  "author": "",
   "license": "UNLICENSED",
   "private": true,
   "devDependencies": {
