@@ -4,6 +4,7 @@
   "description": "",
   "main": "src/index.js",
   "scripts": {
+    "prebuild": "npm run lint",
     "build": "webpack --progress --bail -p",
     "lint": "eslint --ext .js --ext .jsx src test adapters ./*.js",
     "start": "webpack-dev-server",
