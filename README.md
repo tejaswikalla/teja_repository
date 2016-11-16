@@ -24,7 +24,7 @@ Download [Atom](https://atom.io/) if you need a "hackable text editor" for editi
 
 # Create your application
 
-### Clone the repository
+### Clone this repository
 
 Clone this repository, replacing `my-app` with the name of your application.
 
@@ -33,7 +33,7 @@ git clone git@github.geo.apple.com:neutron-edu/fx-app.git my-app
 cd my-app/
 ```
 
-### Remove origin
+### Remove the origin
 
 In git, the origin is an alias for the remote repository from which we cloned. Remove the origin, since we don't want to update the `fx-app` repository!
 
@@ -49,13 +49,26 @@ git remote -v
 
 ### Rename the application
 
-Update `package.json` with the name of your application. This should be what you used instead of `my-app`.
+Update `package.json` with the name of your application. Name your application whatever you used instead of `my-app`.
 
 ```
 npm init
 ```
 
 Update `<title>` in [./public/index.html](./public/index.html) to be something like "My App".
+
+### Create a new repository
+
+Create a new repository on [github.geo.apple.com](https://github.geo.apple.com/new). Name your repository whatever you used instead of `my-app`.
+
+### Push your repository to github.geo.apple.com
+
+Push your repository to `github.geo.apple.com`, replacing with your username and the name of your application.
+
+```
+git remote add origin git@github.geo.apple.com:theo/my-app.git
+git push -u origin master
+```
 
 # Install dependencies
 
@@ -70,7 +83,7 @@ This installs the dependencies specified in [./package.json](./package.json). If
 # Run your application
 
 ```
-npm run start
+npm start
 ```
 
-The application should now be running in your browser at [http://localhost:3000/](http://localhost:3000/). It'll automatically be refreshed when you make code changes. Change something in [App.js](./src/App.js) to see this in action.
+The application should now be running in your browser at [http://localhost:8080/](http://localhost:8080/). It'll automatically be refreshed when you make code changes. Change something in [App.js](./src/App.js) to see this in action.
