@@ -1,4 +1,4 @@
-This is a template [React](https://facebook.github.io/react/) application that also includes [Bootstrap](http://getbootstrap.com) and [FontAwesome](http://fontawesome.io/icons/).
+This is a template application that includes [React](https://facebook.github.io/react/), [Bootstrap](http://getbootstrap.com) and [FontAwesome](http://fontawesome.io/icons/).
 
 # Setup
 
@@ -29,13 +29,13 @@ Download [Atom](https://atom.io/) if you need a "hackable text editor" for editi
 Clone this repository, replacing `my-app` with the name of your application.
 
 ```
-git clone git@github.geo.apple.com:neutron-edu/fx-app.git my-app
+git clone git@github.geo.apple.com:neutron-edu/fx-template-app.git my-app
 cd my-app/
 ```
 
 ### Remove the origin
 
-In git, the origin is an alias for the remote repository from which we cloned. Remove the origin, since we don't want to update the `fx-app` repository!
+In git, the origin is an alias for the remote repository from which we cloned. Remove the origin, since we don't want to update the `fx-template-app` repository!
 
 ```
 git remote rm origin
