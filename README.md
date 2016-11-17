@@ -59,7 +59,7 @@ Update `<title>` in [./public/index.html](./public/index.html) to be something l
 
 ### Create a new repository on github.geo.apple.com
 
-Create a new repository on [github.geo.apple.com](https://github.geo.apple.com/new). Select `neutron-edu` as organisation and name your repository whatever you used instead of `my-app`. The name must be unique.
+Create a new repository on [github.geo.apple.com](https://github.geo.apple.com/new). Name your repository whatever you used instead of `my-app`.
 
 ### Push your repository to github.geo.apple.com
 
