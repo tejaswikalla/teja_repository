@@ -1,29 +1,5 @@
 This is a template application that includes [React](https://facebook.github.io/react/), [Bootstrap](http://getbootstrap.com) and [FontAwesome](http://fontawesome.io/icons/).
 
-# Setup
-
-### Install nvm
-
-Install [nvm](https://github.com/creationix/nvm), which lets you switch between different versions of Node.
-
-```
-curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.32.1/install.sh | bash
-```
-
-### Install Node
-
-Install Node (this will also install [npm](https://docs.npmjs.com/getting-started/what-is-npm)):
-
-```
-nvm install node
-```
-
-### Download Atom
-
-Download [Atom](https://atom.io/) if you need a "hackable text editor" for editing code.
-
-# Create your application
-
 ### Clone this repository
 
 Clone this repository, replacing `my-app` with the name of your application.
@@ -57,11 +33,13 @@ npm init
 
 Update `<title>` in [./public/index.html](./public/index.html) to be something like "My App".
 
-### Create a new repository on github.geo.apple.com
+Replace the [README](./README.md).
+
+### Create a new repository on Github
 
 Create a new repository on [github.geo.apple.com](https://github.geo.apple.com/new). Name your repository whatever you used instead of `my-app`.
 
-### Push your repository to github.geo.apple.com
+### Push your repository to Github
 
 Push your repository to `github.geo.apple.com`, replacing with your username and the name of your application.
 
@@ -70,7 +48,7 @@ git remote add origin git@github.geo.apple.com:theo/my-app.git
 git push -u origin master
 ```
 
-# Install dependencies
+### Install dependencies
 
 Install dependencies (e.g., React) since their sources are not saved with your application in source control.
 
@@ -80,7 +58,7 @@ npm install
 
 This installs the dependencies specified in [./package.json](./package.json). If you peek in `./node_modules`, you'll see a whole lot of stuff. That's because your dependencies have dependencies, and so on.
 
-# Run your application
+### Run your application
 
 ```
 npm start
