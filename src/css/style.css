@@ -20,7 +20,6 @@ h1#title span span {
 
 h2 {
 	text-transform: uppercase;
-  color: white;
 	font-weight: 400;
 	letter-spacing: 1px;
 	font-size: 1.4em;
@@ -46,6 +45,7 @@ p.small {
 
 /* Layout */
 .container {
+	font-family: 'Lato',sans-serif;
 	margin: 0;
 }
 
